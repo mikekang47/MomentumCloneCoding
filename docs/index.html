@@ -8,20 +8,21 @@
     <title>Momentum App</title>
 </head>
 <body>
-    <div class="tik" id="clock">00:00:00
-        <form class= "hidden" id="login-form">   
-            <input required maxlength = "15" type="text" placeholder="What is your name?" /> 
-            <button>Log In</button>
-        </form>
+    <div class="tik" id="clock">00:00:00 </div>
+    
        
-    </div>
-    <div class = "name" id="greeting" class="hidden">
+    <div class = "name" id="greeting">
         <form class="todo" id="todo-form">
             What is your main focus for today?<br>
-            <input class="fill-in" type="text" placeholder="Write a To Do and Press Enter" required>
+            <input style="width:300px;" class="fill-in" type="text" placeholder="Write a To Do and Press Enter" required>
+            <button>Enter</button>
         </form>
     </div>
-   
+
+    <form class= "hidden" id="login-form" style="text-align: center;">   
+        <input required maxlength = "15" style="width:300px;" type="text" placeholder="What is your name?" /> 
+        <button>Log In</button>
+    </form>
     
     <ul id="todo-list">
     </ul>    
